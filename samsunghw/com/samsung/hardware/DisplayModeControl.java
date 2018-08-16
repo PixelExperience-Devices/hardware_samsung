@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-package org.lineageos.hardware;
+package com.samsung.hardware;
 
-import lineageos.hardware.DisplayMode;
-import org.lineageos.internal.util.FileUtils;
+import samsung.hardware.DisplayMode;
+import com.samsung.internal.util.FileUtils;
 
 import java.util.Arrays;
 
