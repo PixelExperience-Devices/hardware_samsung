@@ -33,6 +33,7 @@ ifneq ($(TARGET_PROVIDES_LIBLIGHT),true)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := lights.c
+LOCAL_CFLAGS    := -Wno-error
 
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_STATIC_LIBRARIES := liblights_helper
